@@ -56,7 +56,7 @@ export default {
     sub() {
       if (this.todo) {
         let todo = this.todo;
-        // Add a second document with a generated ID.
+        // Add a second document with a generated ID.l
         firebase
           .firestore()
           .collection("todos")
